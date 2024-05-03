@@ -94,3 +94,5 @@ app.delete("/user/:id",async (req,res)=>{
     }
     //userMongo.findByIdAndDelete(req.params.id).then((user)=> res.json(user)).catch((err)=> console.log(err));
 });
+
+module.exports = app;   //exporting app to use in testing
